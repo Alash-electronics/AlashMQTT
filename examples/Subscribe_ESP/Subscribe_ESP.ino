@@ -1,5 +1,9 @@
-// AlashMQTT: управление светодиодом сообщениями. Отправьте на тему alash/demo/led текст on или off (из браузера или приложения MQTT).
-// Подписка запоминается: после потери связи плата переподключается и подписывается заново сама.
+// [ru] AlashMQTT: управление светодиодом сообщениями. Отправьте на тему alash/demo/led текст on или off (из браузера или приложения MQTT).
+//      Подписка запоминается: после потери связи плата переподключается и подписывается заново сама.
+// [kk] AlashMQTT: жарықдиодты хабарламалармен басқару. alash/demo/led тақырыбына on немесе off мәтінін жіберіңіз (браузерден немесе MQTT қолданбасынан).
+//      Жазылым есте сақталады: байланыс үзілгенде тақта қайта қосылып, өзі қайта жазылады.
+// [en] AlashMQTT: controlling an LED with messages. Send the text on or off to the topic alash/demo/led (from a browser or an MQTT app).
+//      The subscription is remembered: after a lost connection the board reconnects and subscribes again by itself.
 #include <AlashMQTT.h>
 #if defined(ESP32)
 #include <WiFi.h>

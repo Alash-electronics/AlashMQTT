@@ -1,4 +1,6 @@
-// AlashMQTT: не подключается к серверу? Скетч попробует подключиться и скажет причину (адрес, порт, логин, имя клиента).
+// [ru] AlashMQTT: не подключается к серверу? Скетч попробует подключиться и скажет причину (адрес, порт, логин, имя клиента).
+// [kk] AlashMQTT: серверге қосылмай ма? Скетч қосылып көреді және себебін айтады (мекенжай, порт, логин, клиент аты).
+// [en] AlashMQTT: cannot connect to the server? The sketch tries to connect and tells the reason (address, port, login, client name).
 #include <AlashMQTT.h>
 #if defined(ESP32)
 #include <WiFi.h>

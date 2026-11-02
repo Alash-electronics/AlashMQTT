@@ -1,6 +1,6 @@
 {
   "name": "AlashMQTT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy MQTT client: publish, subscribe, auto-reconnect and re-subscribe, last will, clear errors (ru/kk/en), no PubSubClient needed",
   "keywords": "MQTT, IoT, smart home, publish, subscribe, ESP32, ESP8266, Home Assistant, broker",
   "repository": {

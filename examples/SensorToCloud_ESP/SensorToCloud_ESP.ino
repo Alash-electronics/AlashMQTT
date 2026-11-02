@@ -1,6 +1,12 @@
-// AlashMQTT: датчик в сеть. Температура раз в 10 секунд уходит на сервер, а "завещание" само сообщит остальным, что датчик пропал:
-// если плата отключится без предупреждения (выключили питание, пропал Wi-Fi), брокер сам опубликует "offline" на тему статуса.
-// Тему статуса и значения читайте в любом приложении MQTT (например, MQTT Dash, MyMQTT) или Home Assistant.
+// [ru] AlashMQTT: датчик в сеть. Температура раз в 10 секунд уходит на сервер, а "завещание" само сообщит остальным, что датчик пропал:
+//      если плата отключится без предупреждения (выключили питание, пропал Wi-Fi), брокер сам опубликует "offline" на тему статуса.
+//      Тему статуса и значения читайте в любом приложении MQTT (например, MQTT Dash, MyMQTT) или Home Assistant.
+// [kk] AlashMQTT: желідегі датчик. Температура әр 10 секунд сайын серверге кетеді, ал «өсиет» датчиктің жоғалғанын басқаларға өзі хабарлайды:
+//      тақта ескертусіз ажыраса (қуат өшті, Wi-Fi жоғалды), брокер күй тақырыбына өзі "offline" жариялайды.
+//      Күй тақырыбы мен мәндерді кез келген MQTT қолданбасында (мысалы, MQTT Dash, MyMQTT) немесе Home Assistant-та оқыңыз.
+// [en] AlashMQTT: a sensor on the network. The temperature goes to the server every 10 seconds, and the "last will" itself tells the others the sensor is gone:
+//      if the board disconnects without warning (power off, Wi-Fi lost), the broker itself publishes "offline" to the status topic.
+//      Read the status topic and the values in any MQTT app (for example MQTT Dash, MyMQTT) or Home Assistant.
 #include <AlashMQTT.h>
 #if defined(ESP32)
 #include <WiFi.h>
